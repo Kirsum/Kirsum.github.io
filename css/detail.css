@@ -1,0 +1,204 @@
+.de_container {
+    margin-top: 20px;
+}
+.crumb_wrap a{
+    margin-right: 10px;
+}
+.crumb_wrap {
+    margin-bottom: 10px;
+}
+.preview_wrap {
+    width: 400px;
+    height: 590px;
+}
+.itemInfo_wrap {
+    width: 718px;
+}
+.preview_img {
+    width: 398px;
+    border: 1px solid #ccc;
+}
+.preview_list {
+    position: relative;
+    margin-top: 40px;
+    height: 60px;
+}
+.list_item {
+    width: 320px;
+    height: 60px;
+    margin: 0 auto;
+}
+.list_item li {
+    float: left;
+    height: 56px;
+    width: 56px;
+    border: 2px solid transparent;
+    margin: 0 2px;
+}
+.list_item .current {
+    border:2px solid #C81623;
+}
+.arrow_prev {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 22px;
+    height: 32px;
+    background: url(../img/arrow-prev.png);
+}
+.arrow_next {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    width: 22px;
+    height: 32px;
+    background: url(../img/arrow-next.png);
+}
+.sku_name {
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+}
+.news {
+    color: #c12228  ;
+    height: 33px;
+}
+.summary dd,
+.summary dt {
+    float: left;
+}
+.summary dl {
+    overflow: hidden;
+}
+.summary dt {
+    width: 60px;
+    padding-left: 10px;
+    line-height: 36px;
+}
+.summary_price  {
+    position: relative;
+    background-color: pink;
+}
+
+.price {
+    font-size: 24px;
+    color: #e12228;
+}
+.summary_price a {
+    color: #C81623;
+}
+.remark {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.summary_promotion {
+    overflow: hidden;
+    background-color: pink;
+}
+.summary_promotion dl {
+    margin-top: 10px;
+}
+.summary_promotion dd{
+    width: 450px;
+    line-height: 33px;
+}
+.summary_promotion em {
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    background-color: #C81623;
+    color: white;
+}
+.summary_support dd {
+    line-height: 39px;
+}
+.choose_color a,
+.summary_version a,
+.choose_type a{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #EDEDED;
+    background-color: #f7f7f7;
+}
+.choose_color a {
+    height: 40px;
+    line-height: 40px;
+    width: 80px;
+}
+.summary a.current {
+    border-color: red;
+}
+.summary_version {
+    margin-top: 10px;
+}
+.summary_version a {
+    height: 30px;
+    width: 60px;
+    line-height: 30px;
+}
+.choose_type a {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+}
+.choose_btns {
+    margin-top: 20px;
+}
+.choose_amount {
+    position: relative;
+    float: left;
+    height: 46px;
+    width: 50px;
+    background-color: white;
+}
+.choose_btns input {
+    width: 33px;
+    height: 44px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+ .add,
+ .reduce {
+    position: absolute;
+    right: 0;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    width: 15px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.add {
+    top: 0;
+}
+.reduce {
+    bottom: 0;
+    cursor: not-allowed;
+}
+.addcar {
+    float: left;
+    margin-left: 10px;
+    height: 46px;
+    width: 142px;
+    line-height: 46px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #c81623;
+    color: #fff;
+}
+.aside {
+    float: left;
+    width: 208px;
+    height: 1000px;
+    border: 1px solid #ccc;
+}
+.detail {
+    float: right;
+    width: 978px;
+    height: 1000px;
+    border: 1px solid #ccc;
+     
+}
