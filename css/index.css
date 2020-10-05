@@ -1,0 +1,232 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+.focus {
+    position: relative;
+    width: 720px;
+    height: 455px;
+}
+.newsflash {
+    width: 250px;
+    height: 455px;
+}
+.leftarrow ,
+.rightarrow {
+    position: absolute;
+    top: 50%;
+    height: 40px;
+    width: 24px;
+    margin-top: -20px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: "icomoon";
+    background-color:rgba(0, 0, 0, 0.3);
+}
+.leftarrow {
+    left: 0;
+}
+.rightarrow {
+    right: 0px;
+}
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li {
+    float: left;
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.circle .current {
+    background-color: white;
+}
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+}
+
+.news_hd {
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    line-height: 32px;
+    font-size: 14px;
+    padding: 0 15px;
+}
+.news_hd a {
+    float: right;
+    font-size: 12px;
+}
+.news_bd {
+    padding: 10px 0 0 15px;
+}
+.news_bd ul li {
+    height: 23px;
+}
+.lifeservice {
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 300px;
+}
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 69px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.lifeservice li a {
+    display: block;
+    height: 100%;
+}
+.lifeservice li a i{
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 10px auto;
+    /* 解决外边距合并 */
+    overflow: hidden;
+    background: url(../img/icons.png) -17px -16px;
+}
+.lifeservice li p {
+    text-align: center;
+}
+.hot {
+    position: absolute;
+    top: 0;
+    right: -1px;
+    width: 12px;
+    height: 15px;
+    background: url(../img/hot.jpg) no-repeat;
+}
+.bargin {
+    height: 75px;
+    margin-top: 5px;
+    background-image: url(../upload/bargin.jpg);
+}
+.dropdown .dd {
+    display: block;
+}
+/* 今日推荐的部分 */
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+    background-color: #EBEBEB;
+}
+.recom_hd {
+    float: left;
+    height: 163px;
+    width: 192px;
+    text-align: center;
+    background-color: #5C5251;
+}
+.recom_hd img {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.recom_hd h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+}
+.recom_bd {
+   float: left;
+}
+.recom_bd ul li{
+    float: left;
+    height: 145px;
+    width: 248px;
+    margin: 10px 0;
+    border-left: 1px solid #ccc;
+}
+/* 楼层区 */
+.box_hd {
+    margin-top: 25px;
+    height: 30px;
+    border-bottom: 2px solid red;
+}
+.box_hd h3 {
+    float: left;
+    height: 18px;
+    color: #C81623;
+}
+.tab_list {
+    float: right;
+
+}
+.tab_list li {
+    float: left;
+    margin:  0 10px;
+    font-size: 14px;
+    margin-top: 2px;
+    color: #666666;
+}
+
+.box_bd {
+    height: 358px;
+    /* 缩放出现了换行 故比1200版心大了 */
+    width: 1300px;
+}
+.box_bd li {
+    float: left;
+    height: 358px;
+}
+.w209 {
+    overflow: hidden;
+
+    width: 209px;
+    background-color: #f9f9f9;
+}
+.tab_con_list {
+    margin-bottom: 15px;
+}
+.tab_con_list li{
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.w329 {
+    width: 329px;
+}
+.box_con_item {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+.box_con_item2 {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    height: 177px;
+}
+.box_con_item3 {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    height: 357px;
+}
+/* 楼层区结束 */

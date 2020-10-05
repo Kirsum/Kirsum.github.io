@@ -1,0 +1,138 @@
+.sk {
+    position: absolute;
+    top: 45px;
+    left: 186px;
+    padding: 4px 14px;
+    border-left: 1px solid #B1191A;
+}
+.sk_list li{
+    float: left;
+    margin: 0 30px;
+    line-height: 45px;
+
+}
+.sk_list a {
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+}
+.sk_list a:hover {
+    color: #c81523
+}
+.sk_con li{
+    float: left;
+    margin: 0 20px;
+    line-height: 45px;
+}
+.sk_con li a {
+    font-family: "icomoon";
+    font-size: 14px;
+    font-weight: 700;
+}
+.sk_bd {
+    margin-top: 10px;
+}
+.sk_bd ul {
+    width: 1300px;
+}
+.sk_goods {
+    position: relative;
+    float: left;
+    margin: 0 12px 15px 0;
+    width: 288px;
+    height: 458px;
+    border: 1px solid transparent;
+}
+.sk_goods:hover {
+    border: 1px solid #e12228;
+}
+.sk_goods_title {
+    font-weight: normal;
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+}
+.sk_goods_price {
+    padding: 0 12px;
+}
+.sk_goods_price em {
+    color: #E60012;
+    font-size: 22px;
+}
+.sk_goods_price del{
+    font-size: 14px;
+    font-weight: 700;
+    color: #999C9C;
+}
+.sk_goods_progress {
+    padding: 0 10px;
+}
+.bar {
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #EF4147;
+    border-radius: 5px;
+    vertical-align: center;
+}
+.bar_in {
+    height: 10px;
+    width: 87%;
+    background-color: #EF4147;
+}
+.sk_goods_progress i,
+.sk_goods_progress em {
+    color: #EF4147;
+}
+.sk_goods_buy {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    background-color:  #B1191A;
+}
+.page {
+    margin: 40px 0;
+    text-align: center;
+}
+.page_num {
+    display: inline-block;
+}
+.page_skip {
+    display: inline-block;
+}
+.page_num a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+.page_num .pn_prev,
+.page_num .pn_next {
+    width: 86px;
+}
+.page_num .current,
+.page_num .dotted {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.page_skip input,
+.page_skip button {
+    width: 46px;
+    height: 36px;
+    text-align: center;
+    border: 1px solid #ccc;
+    transition: all .3s;
+}
+
+.page_skip input:focus {
+    border: 1px solid blue;
+    width: 80px;
+}
